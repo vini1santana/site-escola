@@ -1,108 +1,87 @@
+@import url(@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap'););
+
 * {
-  margin:o;
-  padding:0;
+    margin: 0;
+    padding: 0;
 }
 
-cabecalho{
-  background-color: rgb(0,0,0);
-color: white;
-display: flex;
-  jusify-content:space-around;
-align-items: center;
-padding: 24px 0;
+body {
+    font-family: "Oswald", sans-serif;
 }
 
-.cabecalho-imagem{
-width: 100%
+.cabecalho {
+    background-color: rgb(254, 0, 0);
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
 }
 
-.cabecalho-lista-item {
-display: inline-block;
-margin: 0 16px;
-font-size: 20px;
+.cabecalho-imagem {
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.cabecalho-lista-items {
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 20px;
 }
 
 .escola-imagem {
-width: 30%;
+    width: 30%;
 }
 
-.escola{
-background-imagem: linear-gradient(#424E61,#16CFF8)
-color: white;
-display: flex;
-justify-content: center;
-align-itens: center;
-padding: 24px 0;
+.escola {
+    background-image: linear-gradient(#424E61,#16CFF8);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
 }
 
-.escola-conteudo{
-widht:35%;
+.escola-conteudo {
+    width: 35%;
 }
 
-.escola-titulo{
-padding:24px 0;
+.escola-titulo {
+    padding: 24px o;
 }
 
-.estudante{
-  padding:24px 0;
+.estudante {
+    padding: 24px 0;
 }
 
-.estudante-imagem{
-widht:120px;
+.estudante-imagem {
+    width: 120px;
 }
 
-.estudante-icone{
-widht:24px;
-padding:4px;
+.estudante-icone {
+    width: 24px;
+    padding: 4px 8px;
 }
 
-.estudante-div{
-text-align: center;
-padding:16px 0;
+.estudante-div {
+    text-align: center;
+    padding: 16px 0;
 }
 
 .estudante-titulo {
-  text-align: center;
-  padding: 50px 0;
+    text-align: center;
+    padding: 50px 0;
 }
 
 .estudante-todos {
-display: grid;
-grid-template-colums: 20% 20% 20% 20% 20%
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
 }
 
-.rodape { }
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.rodape {
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
